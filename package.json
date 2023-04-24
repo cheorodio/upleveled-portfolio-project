@@ -31,6 +31,8 @@
     "eslint": "8.38.0",
     "eslint-config-upleveled": "^4.1.8",
     "postcss": "8.4.22",
+    "stylelint": "^15.6.0",
+    "stylelint-config-upleveled": "^1.0.2",
     "typescript": "4.9.5"
   }
 }
