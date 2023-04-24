@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.21.3",
     "@next/eslint-plugin-next": "13.3.0",
+    "@ts-safeql/eslint-plugin": "^1.0.0",
     "@types/eslint": "8.37.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
@@ -27,10 +28,17 @@
     "@types/sharp": "0.31.1",
     "@typescript-eslint/eslint-plugin": "5.58.0",
     "@typescript-eslint/parser": "5.58.0",
+    "@upleveled/eslint-config-upleveled": "^4.0.10",
     "cypress": "12.9.0",
     "eslint": "8.38.0",
     "eslint-config-upleveled": "^4.1.8",
+    "libpg-query": "^15.0.2",
     "postcss": "8.4.22",
+    "postcss-styled-syntax": "^0.4.0",
+    "stylelint": "^15.6.0",
+    "stylelint-config-css-modules": "^4.2.0",
+    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-config-recommended-scss": "^10.0.0",
     "typescript": "4.9.5"
   }
 }
