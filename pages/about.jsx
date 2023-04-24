@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
+import Link from 'next/link';
 
 function About() {
   return (
@@ -17,10 +18,16 @@ function About() {
               About
             </h1>
             <p className="description">
-              My name is Michelle Orodio. I was born in the Philippines, and now
-              living in Vienna Austria. I'm currently learning web development
-              at UpLeveled.
+              My name is Michelle Orodio. I'm originally from the Philippines
+              but have lived in four different countries: Philippines, the UK,
+              China and Austria. I'm currently based in Vienna, Austria.
             </p>
+            <p className="description">
+              I'm currently learning web development at UpLeveled.
+            </p>
+            <Link href="/portfolio" className="portfolio-link">
+              View projects
+            </Link>
           </div>
         </div>
       </section>

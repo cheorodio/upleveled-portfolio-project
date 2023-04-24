@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { withRouter } from 'next/router';
+import Image from 'next/image';
+import navImg from '../public/logo.png';
 
 function Navbar({ router }) {
   const navs = [
@@ -14,7 +16,7 @@ function Navbar({ router }) {
     <nav className="navbar">
       <div className="container">
         <Link href="/" className="logo">
-          Lutfhi.
+          <Image src={navImg} alt="m logo" width="10px" height="10px" />
         </Link>
 
         <ul className="nav-links">
